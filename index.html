@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:white;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+        
+        .class1{
+            background-color: white;
+            color: black;
+            display: inline;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .class2:hover{
+            color:maroon;
+            text-decoration: underline;
+        }
+        .class2{
+            color: black;
+            font-size: 30px;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-decoration: none;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        #id1{
+            height: 700px;
+            width:100%;
+            background-image: url("https://img.freepik.com/free-vector/cartoon-blood-donation-background_52683-70798.jpg?w=2000");
+            animation-name: blood;
+            animation-duration: 25s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        
+        @keyframes blood{
+            0%{background-image: url("https://img.freepik.com/free-vector/cartoon-blood-donation-background_52683-70798.jpg?w=2000"); background-size:cover;}
+            20%{background-image: url("https://media.istockphoto.com/vectors/blood-donation-concept-vector-id1256555401?k=20&m=1256555401&s=612x612&w=0&h=We4Ckw72r8-RSK_TOVG2jWtui1ntlQNgYeDo1lLi1qg="); background-size:cover;}
+            40%{background-image: url("https://www.spjain.org/hubfs/events-images/Blood-Donation-Drive/sp-jain-blood-donation-drive-dubai.jpg"); background-size:cover;}
+            60%{background-image: url("https://www.sharp.com/health-news/images/Blood-donation-myths-HN1221-Stock-844661710-Sized.png"); background-size:cover;}
+            80%{background-image: url("https://ichef.bbci.co.uk/news/976/cpsprodpb/182FF/production/_107317099_blooddonor976.jpg"); background-size:cover;}
+            100%{background-image: url("https://images.indianexpress.com/2021/06/blood-donation_1200_getty.jpg"); background-size:cover;}
+        }
+        .container{
+            height: 900px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-column-gap: 50px;
+            grid-row-gap: 50px;
+        }
+
+        .abc{
+            text-align: center;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <nav style="text-align:center;">
+        <ul style="list-style-type: none;">
+            <li class="class1">
+                <img src="bloodlogo.png" height="100px" width="100px">
+            </li>
+            <li class="class1">
+                <a class="class2" href="index.html">Home</a>
+            </li>
+            <li class="class1">
+                <a class="class2" href="aboutbloodshortage.html">About Blood Shortage</a>
+            </li>
+            <li class="class1">
+                <a class="class2" href="whyisitnessecary.html">Why is it Necessary</a>
+            </li>
+            <li class="class1">
+                <a class="class2" href="contactfordonation.html"> Contact for Donation</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="id1"></div>
+
+    <div class="container">
+        <div class="abc">
+            <img src="https://www.redcrossblood.org/content/dam/redcrossblood/rcb/home-page/components/rapid-pass-homepage.jpg.transform/1288/q82/feature/image.jpeg" height="300px" width="400px">
+            <h3>Start Your RapidPass</h3>
+            <p>Donating blood today? Complete your pre-reading and health history questions online using any device, before visiting your blood drive location.</p>
+        </div>
+        <div class="abc">
+            <img src="https://www.redcrossblood.org/content/dam/redcrossblood/rcb/home-page/components/donate-blood-eligibility.jpg.transform/1288/q82/feature/image.jpeg" height="300px" width="400px">
+            <h3>Am I Eligible to Donate Blood?</h3>
+            <p>Are you eligible for blood donation? Find out about the eligibility requirements to donate blood today. Learn about general health, travel, medications, tattoos, and more.</p>
+        </div>
+        <div class="abc">
+            <img src="https://www.redcrossblood.org/content/dam/redcrossblood/rcb/home-page/components/SC_Card_Image_v2.png.img.png" height="300px" width="400px">
+            <h3>Help Sickle Cell Patients</h3>
+            <p>Blood donors who are Black play a critical role in helping sickle cell disease patients receive the most compatible blood match. Donors needed to meet this urgent need. </p>
+        </div>
+    </div>
+    <h2 style="color:black; text-align:center;">How to Help</h2>
+    <div class="container">
+        <div class="abc">
+            <img src="https://www.redcrossblood.org/content/dam/redcrossblood/home-page-images/Blood_Mobile.jpg.transform/1288/q82/feature/image.jpeg" height="300px" width="400px">
+            <h3>Host a Blood Drive</h3>
+            <p></p>
+        </div>
+        <div class="abc">
+            <img src="https://www.redcrossblood.org/content/dam/redcrossblood/rcb/home-page/components/ARC_Volunteer.jpg.transform/1288/q82/feature/image.jpeg" height="300px" width="400px">
+            <h3>Become a Volunteer</h3>
+            <p></p>
+        </div>
+        <div class="abc">
+            <img src="https://www.redcrossblood.org/content/dam/redcrossblood/home-page-images/financial-donation.jpg.transform/1288/q82/feature/image.jpeg" height="300px" width="400px">
+            <h3>Make a Financial Donation</h3>
+            <p></p>
+        </div>
+    </div>
+
+    
+</body>
+</html>

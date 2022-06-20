@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:white;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+        
+        .class1{
+            background-color: white;
+            color: black;
+            display: inline;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .class2:hover{
+            color:maroon;
+            text-decoration: underline;
+        }
+        .class2{
+            color: black;
+            font-size: 30px;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-decoration: none;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        #id1{
+            height: 650px;
+            width:100%;
+            background-image: url("https://www.redcrossblood.org/content/dam/redcrossblood/news/shortage_blood_drop.png.transform/1288/q70/feature/image.png");
+            animation-name: bloodshortage;
+            animation-duration: 25s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        
+        @keyframes bloodshortage{
+            0%{background-image: url("https://www.redcrossblood.org/content/dam/redcrossblood/news/shortage_blood_drop.png.transform/1288/q70/feature/image.png"); background-size:cover;}
+            25%{background-image: url("https://vitalant.org/getattachment/Articles/Vitalant-Calls-on-Donors-to-Alleviate-Critical-Blo/surgery.jpg.aspx?lang=en-US&width=940&height=540&ext=.jpg"); background-size:cover;}
+            50%{background-image: url("https://now.tufts.edu/sites/default/files/styles/large_1366w_648h/public/uploaded-assets/images/migrated/220304_blood_donor_lg.jpg?h=eed8f32f&itok=8HgCSgqC"); background-size:cover;}
+            75%{background-image: url("https://gpjs3bucket.s3.amazonaws.com/wp-content/uploads/2021/06/26120420/GPJNews_Zimbabwe_GM_BloodShortage_098_L_web.jpg"); background-size:cover;}
+            100%{background-image: url("https://media.kare11.com/assets/KARE/images/a969288f-a424-4bf4-91c5-960ac367379d/a969288f-a424-4bf4-91c5-960ac367379d_1920x1080.jpg"); background-size:cover;}
+        }
+    </style>
+</head>
+<body>
+    <nav style="text-align:center;">
+        <ul style="list-style-type: none;">
+            <li class="class1">
+                <img src="bloodlogo.png" height="100px" width="100px">
+            </li>
+            <li class="class1">
+                <a class="class2" href="index.html">Home</a>
+            </li>
+            <li class="class1">
+                <a class="class2" href="aboutbloodshortage.html">About Blood Shortage</a>
+            </li>
+            <li class="class1">
+                <a class="class2" href="whyisitnessecary.html">Why is it Necessary</a>
+            </li>
+            <li class="class1">
+                <a class="class2" href="contactfordonation.html"> Contact for Donation</a>
+            </li>
+        </ul>
+    </nav>
+    <div>
+        <h2 style="text-align:center;">What is Blood Shortage?</h2>
+        <p style="text-align:center;">Blood Shortage is the relative deficiency in the supply of blood and blood products available for transfusion in a particular region.</p>
+    </div>
+    <div id="id1"></div>
+    <br>
+    <br>
+    <div style="text-align:center;padding-left:50px;padding-right:50px;">
+        The Red Cross has experienced a 10% decline in the number of people donating blood since the beginning of the pandemic and continues to confront relentless issues due to the pandemic, including ongoing blood drive cancellations and staffing limitations. Adding to the concern is the surge of COVID-19 cases. The Red Cross has experienced low donor turnout ever since the delta variant began spreading in August, and that trend continues as the Omicron variant takes over.
+        All types are needed now, especially types O positive and O negative, as well as platelet donations, to help reverse this national blood crisis. If there is not an immediate opportunity available to donate, donors are asked to make an appointment in the days and weeks ahead to ensure the Red Cross can replenish and maintain a sufficient blood supply.
+    </div>
+</body>
+</html>

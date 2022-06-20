@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:white;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+        
+        .class1{
+            background-color: white;
+            color: black;
+            display: inline;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .class2{
+            color: black;
+            font-size: 30px;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-decoration: none;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        #container{
+            height: 900px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-top:80px;
+            padding-left: 50px;
+            padding-right: 50px;
+            background-color: burlywood;
+        }
+        .class2:hover{
+            color:maroon;
+            text-decoration: underline;
+        }
+        .abc{
+            height: 900px;
+            width: 40%;
+
+        }
+        #container1{
+            
+            height:900px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            background-color: burlywood;
+            border-radius: 40px;
+        }
+        .pqr{
+            height: 900px;
+            width: 40%;
+            
+        }
+        .ooo{
+            padding-top:80px;
+            padding-left: 50px;
+            padding-right: 50px;
+            background-color: burlywood;
+            border-radius:40px;
+        }
+    </style>
+</head>
+<body>
+    <nav style="text-align:center;">
+        <ul style="list-style-type: none;">
+            <li class="class1">
+                <img src="bloodlogo.png" height="100px" width="100px">
+            </li>
+            <li class="class1">
+                <a class="class2" href="index.html">Home</a>
+            </li>
+            <li class="class1">
+                <a class="class2" href="aboutbloodshortage.html">About Blood Shortage</a>
+            </li>
+            <li class="class1">
+                <a class="class2" href="whyisitnessecary.html">Why is it Necessary</a>
+            </li>
+            <li class="class1">
+                <a class="class2" href="contactfordonation.html"> Contact for Donation</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="container1">
+        <div class="pqr">
+            <form method="post">
+                <br>
+                <label for="">Full Name: </label>
+                <br/>
+                <input type="text" name="fname" placeholder="Enter your first name" size="100%" style="height:40px;">
+                <br/>
+                <br>
+                <label for="address">Your Address: </label>
+                <br/>
+                <input type="text" name="address" placeholder="Enter your Address here" size="100%" style="height:40px;"> 
+                <br/>
+                <br/>
+                <label for="state">State: </label>
+                <br/>
+                <input type="text" name="state" placeholder="Enter your State here" size="100%" style="height:40px;">
+                <br/>
+                <br/>
+                <label for="phone">Phone: </label>
+                <br/>
+                <input type="number" name="phone" placeholder="Enter your Phone Number here" size="100%" style="height:40px;">
+                <br/>
+                <br>
+                <label for="message">Message: </label><br>
+                <textarea name="message" cols="160" rows="15" placeholder="Enter your Additional Message"></textarea>
+                <br/>
+                <div style="text-align: right;">
+                <input type="submit" value="Submit" style="height:50px;width:100px;border-radius:20px;background-color:orange;color:white; border-color:orange; font-weight:bold; font-size:medium;">
+                </div>
+            </form>
+        </div>
+        <div class="pqr">
+            <br>
+            <label for="email">Email: </label>
+            <br/>
+            <input type="email" name="email" placeholder="Enter your email here" size="90%" style="height:40px;">
+            <br/>
+            <br>
+            <label for="city/region">City/Region: </label>
+            <br/>
+            <input type="text" name="city/region" placeholder="Enter your City/Region here" size="90%" style="height:40px;">
+            <br/>
+            <br/>
+            <label for="country">Country: </label>
+            <br/>
+            <input type="text" name="country" placeholder="Enter your Country here" size="90%" style="height:40px;">
+            <br/>
+            <br/>
+            <label for="file">Please Attachment File: </label>
+            <input type="file" name="file">
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="ooo" style="text-align:center;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112075.9421376844!2d77.07906926249997!3d28.61857520000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0f2ba33f4dcb%3A0x3799dbde183e6287!2sIndian%20Red%20Cross%20Society%20National%20Headquarter!5e0!3m2!1sen!2sin!4v1655615821315!5m2!1sen!2sin" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</body>
+</html>
